@@ -189,7 +189,7 @@ autocmd FileType c,h,cpp,hpp nnoremap <buffer> <silent> <leader>gh :ClangdSwitch
 " keybindings for nvimtree
 "nnoremap <leader>ft :NvimTreeToggle<CR> " change this
 nnoremap <leader>n :NvimTreeToggle<CR>
-nnoremap <leader>q :q<CR>
+nnoremap <leader>q :q!<CR>
 " indentLine char
 let g:indentLine_char = '│'
 
